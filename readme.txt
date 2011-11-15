@@ -16,11 +16,13 @@ The shortcodes are [org_chart] and [org_chart_item].
 The [org_chart_item] tag is used for the generation of each node in the chart and all [org_chart_item] tags should be enclosed between the opening [org_chart] and closing [/org_chart] tags.
 
 [org_chart] has three attributes:
+
 * width - set the width of the org chart drawing space (in pixels)
 * height - set the height of the org chart drawing space (in pixels)
 * collapsible - simply adding this word in the tag enables all parent nodes in the chart to be collapsible upon double-click
 
 [org_chart_item] has four attributes:
+
 * title - if the content attribute is not set, the title acts as a node ID and the node's content
 * content - if the content attribute is set, it will be placed as the node's content while the title will simply act as the node ID
 * parent - the ID of the parent node (if any); this is the parent node's title, not the content
