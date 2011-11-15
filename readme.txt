@@ -26,7 +26,10 @@ The [org_chart_item] tag is used for the generation of each node in the chart an
 * parent - the ID of the parent node (if any); this is the parent node's title, not the content
 * hover - what should be displayed when someone hovers over the node
 
-Example org chart (result is shown in the screenshots):
+
+**Example** org chart (result is shown in the screenshots):
+
+<code>
 [org_chart width='400' height='300' collapsible]
 [org_chart_item title='Testing']
 [org_chart_item title='TFCN' content='The First Child Node' parent='Testing']
@@ -36,6 +39,7 @@ Example org chart (result is shown in the screenshots):
 [org_chart_item title='Black Sheep' parent='TSCN']
 [org_chart_item title='SDE' content='XXXXXXX' parent='TSCN' hover='Seven Deadly Exes']
 [/org_chart]
+</code>
 
 PLEASE NOTE: The Google org chart API generates the org chart through tables. Depending on the theme you are using you may experience some stylistic issue which can be fixed with some custom CSS. There are currently no plans to include any additional styling in the plugin out of the box.
 
@@ -49,7 +53,7 @@ This section describes how to install the plugin and get it working.
 
 == Frequently Asked Questions ==
 
-= Why does my org chart look strange/has graphical issues? =
+= Why does my org chart look strange/have graphical issues? =
 
 These issues are generally theme dependent and some custom CSS should fix any issues you may be experiencing.
 
