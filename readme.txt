@@ -17,11 +17,13 @@ The [org_chart_item] tag is used for the generation of each node in the chart an
 
 [org_chart] has three attributes:
 
+
 * width - set the width of the org chart drawing space (in pixels)
 * height - set the height of the org chart drawing space (in pixels)
 * collapsible - simply adding this word in the tag enables all parent nodes in the chart to be collapsible upon double-click
 
 [org_chart_item] has four attributes:
+
 
 * title - if the content attribute is not set, the title acts as a node ID and the node's content
 * content - if the content attribute is set, it will be placed as the node's content while the title will simply act as the node ID
@@ -42,6 +44,7 @@ The [org_chart_item] tag is used for the generation of each node in the chart an
 [org_chart_item title='SDE' content='XXXXXXX' parent='TSCN' hover='Seven Deadly Exes']
 [/org_chart]
 </code>
+
 
 PLEASE NOTE: The Google org chart API generates the org chart through tables. Depending on the theme you are using you may experience some stylistic issue which can be fixed with some custom CSS. There are currently no plans to include any additional styling in the plugin out of the box.
 
