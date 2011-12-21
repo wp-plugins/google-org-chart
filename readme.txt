@@ -3,7 +3,7 @@ Contributors: alekarsovski, ubcdev, ctlt-dev
 Tags: org chart, org, chart, organizational, google, google org chart
 Requires at least: 3.2.1
 Tested up to: 3.2.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Shortcode plugin for simpler generation of org charts using Google's org chart API.
 
@@ -65,3 +65,13 @@ These issues are generally theme dependent and some custom CSS should fix any is
 == Screenshots ==
 
 1. A small example org chart.
+
+== Changelog ==
+
+= 1.0.1 =
+Code clean-up
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+Code clean-up

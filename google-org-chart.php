@@ -2,7 +2,7 @@
 /*
 Plugin Name: Google Org Chart
 Description: Shortcode plugin for simpler generation of org charts using Google's org chart API.
-Version: 1.0.0
+Version: 1.0.1
 Author: Aleksandar Arsovski
 License: GPL2
 */
@@ -26,8 +26,6 @@ License: GPL2
 
 // Set up the initial variables
 $goc_nodes = array();
-$node_counter = 0;
-$item_id = 0;
 
 
 // Register a new shortcode [goc]
